@@ -1,0 +1,37 @@
+#container {
+	width: 320px;
+	height: 480px;
+	background-color: #c5c4c4;
+}
+#head {
+	height:55px;
+}
+#chartarea {
+	width: 300px;
+	height: 350px;
+}
+.pages {
+	background-image:url('../images/bg.jpg');
+	background-repeat:repeat;
+}
+a.foot {
+	background-image: none;
+	color: #0F6;
+}
+p {
+	font: 13px Verdana, Geneva, sans-serif;
+	text-align: left;
+}
+.logo {
+	width: 100px;
+}
+#home {
+	margin-left: 10px;
+}
+}
+.ui-icon-house {
+	background-image: url("images/icons/53-house.png");
+}
+li.textcontent {
+	background: white;
+}

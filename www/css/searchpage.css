@@ -1,0 +1,17 @@
+.ui-li-thumb, .ui-li-icon {
+	max-height: 50px;
+	max-width: 50px;
+	position: absolute;
+	margin-left:10px;
+	margin-top: 10px;
+}
+.listcontent {
+	height: 70px;
+	margin-left:0px;
+}
+.ui-link-inherit {
+	margin-left: -25px;
+}
+.ui-li-heading {
+	margin-top: 0px;
+}

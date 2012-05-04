@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="refresh" content="2; URL=main.html">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>SecondMarket</title>
+<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script src="js/jquery.cookie.js" type="text/javascript"></script>
+<script src="js/jquery.mobile-1.1.0.min.js" type="text/javascript"></script>
+<script type="text/javascript" charset="utf-8" src="js/cordova-1.7.0rc1.js"></script>
+<script type="text/javascript"charset="utf-8"src="js/ChildBrowser.js"></script>
+<script type="text/javascript">
+	$('#indexBodyContent').live('pagecreate',function(event){
+		$.cookie('pageIndex', null);
+		$.cookie('companyName',null);
+		$.cookie('searchinput',null);
+		$.cookie('searchedNames',null);
+		$.cookie('historyName',null);
+	});
+</script>
+<link rel="stylesheet" type="text/css" href="css/homestyle.css" />
+</head>
+
+<body id="indexBodyContent">
+<img class="logo" src="images/secondmarketlogo.gif" />
+</body>
+</html>
